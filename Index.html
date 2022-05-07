@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      
+      <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+      <script src="script.js" defer type="text/javascript" charset="utf-8"></script>
+      
+      <title>Calculator App</title>
+   </head>
+   <body>
+      <main class="calculator">
+         <div class="settingBar">
+            <p>Calc</p>
+            <div class="mode">
+               <p>theme</p>
+               <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                  <input type="range" name="ctrlMode" id="ctrlMode" min="1" max="3" step="1" value="0"/>
+               </ul>
+            </div>
+         </div>
+         <input type="text" autofocus name="numbers" id="numbers" />
+         <div class="keys">
+            <ul>
+               <li name="tab">7</li>
+               <li name="tab">8</li>
+               <li name="tab">9</li>
+               <li name="tab" id="del">Del</li>
+               <li name="tab">4</li>
+               <li name="tab">5</li>
+               <li name="tab">6</li>
+               <li name="tab">+</li>
+               <li name="tab">1</li>
+               <li name="tab">2</li>
+               <li name="tab">3</li>
+               <li name="tab"> - </li>
+               <li name="tab">.</li>
+               <li name="tab">0</li>
+               <li name="tab">÷</li>
+               <li name="tab">×</li>
+            </ul>
+            <input type="reset" name="reset" id="reset" value="Resetar" />
+            <input type="button" name="sum" id="sum" value="=" />
+         </div>
+      </main>
+   </body>
+</html>

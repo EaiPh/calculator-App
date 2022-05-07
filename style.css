@@ -1,0 +1,100 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #6a6fa6;
+}
+
+.calculator {
+   width: 400px;
+   height: 450px;
+   margin: 200px auto;
+   background-color: #6a6fa6;
+}
+
+.settingBar {
+   margin: 30px 0 30px 0;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+}
+.settingBar p {
+   font: 20pt sans-serif;
+   font-weight: 700;
+}
+.mode {
+   display: flex;
+}
+.mode p {
+    margin: 20px 10px 0 0;
+   font: 8pt sans-serif;
+}
+.mode ul {
+   width: 50px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding-left: 3px;
+   list-style: none;
+}
+#ctrlMode {
+   width: 50px;
+}
+#numbers {
+   width: 400px;
+   height: 80px;
+   padding-right: 20px;
+   text-align: end;
+   color: white;
+   font: 25pt sans-serif;
+   border: 0 solid;
+   outline: none;
+   border-radius: 10px 10px 10px 10px;
+   background-color: #000000;
+}
+.keys {
+   margin-top: 15px;
+   border-radius: 10px 10px 10px 10px;
+   background-color: #2c348e;
+}
+.keys ul {
+   padding: 15px 10px;
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+}
+.keys ul li {
+   width: 80px;
+   height: 50px;
+   color: #4f4f4f;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font: 15pt sans-serif;
+   font-weight: 600;
+   margin: 7px 7px 7px 7px;
+   border-radius: 3px 3px 3px 3px;
+   background-color: #e5e5e5;
+}
+#del {
+   color: white;
+   background-color: #6a6fa6;
+}
+#reset, #sum {
+   width: 160px;
+   height: 50px;
+   color: white;
+   font-weight: 700;
+   margin: 0 10px 20px 20px;
+   border: 0;
+   border-radius: 3px 3px 3px 3px;
+}
+#reset {
+   background-color: #6a6fa6;
+}
+#sum {
+   background-color: #ff0000;
+}
